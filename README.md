@@ -14,14 +14,21 @@ launches instantly.
 
 ## Screenshots
 
-_Coming soon._ (See [`docs/screenshots/`](docs/screenshots).)
+**Format & Validate** — beautify / minify, live validation, syntax highlighting
 
-<!--
 ![Format & Validate](docs/screenshots/format.png)
+
+**Compare** — structural, order-independent diff
+
 ![Compare](docs/screenshots/compare.png)
+
+**Tree & Query** — collapsible tree with type badges, search, and path queries
+
 ![Tree & Query](docs/screenshots/tree.png)
+
+**Dark mode** — the whole app adapts to light / dark
+
 ![Dark mode](docs/screenshots/dark.png)
--->
 
 ## Features
 

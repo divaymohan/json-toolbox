@@ -190,8 +190,10 @@ struct TreeView: View {
     @ViewBuilder
     private var treeContent: some View {
         if let root {
+            // Show the document's top-level entries directly (expanded) rather than a single
+            // collapsed "root" node.
             List {
-                OutlineGroup([root], id: \.id, children: \.children) { node in
+                OutlineGroup(root.children ?? [root], id: \.id, children: \.children) { node in
                     row(node)
                 }
             }
